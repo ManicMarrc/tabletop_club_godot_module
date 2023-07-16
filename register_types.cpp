@@ -27,11 +27,9 @@
 #include "error_reporter.h"
 #include "tabletop_importer.h"
 
-void register_tabletop_club_godot_module_types() {
+void initialize_tabletop_club_module(ModuleInitializationLevel p_level) {
     ClassDB::register_class<ErrorReporter>();
     ClassDB::register_class<TabletopImporter>();
 }
 
-void unregister_tabletop_club_godot_module_types() {
-    
-}
+void uninitialize_tabletop_club_module(ModuleInitializationLevel p_level) {}

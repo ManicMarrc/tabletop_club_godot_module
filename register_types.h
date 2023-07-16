@@ -21,5 +21,7 @@
     SOFTWARE.
 */
 
-void register_tabletop_club_godot_module_types();
-void unregister_tabletop_club_godot_module_types();
+#include "modules/register_module_types.h"
+
+void initialize_tabletop_club_module(ModuleInitializationLevel p_level);
+void uninitialize_tabletop_club_module(ModuleInitializationLevel p_level);
