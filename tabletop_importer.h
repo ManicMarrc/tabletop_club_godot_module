@@ -25,10 +25,10 @@
 #define TABLETOP_IMPORTER_H
 
 #include "core/error_list.h"
-#include "core/reference.h"
+#include "core/object/ref_counter.h"
 
-class TabletopImporter : public Reference {
-    GDCLASS(TabletopImporter, Reference);
+class TabletopImporter : public RefCounted {
+    GDCLASS(TabletopImporter, RefCounted);
 
 public:
     TabletopImporter();

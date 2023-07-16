@@ -24,10 +24,10 @@
 #ifndef ERROR_REPORTER_H
 #define ERROR_REPORTER_H
 
-#include "core/reference.h"
+#include "core/object/ref_counted.h"
 
-class ErrorReporter : public Reference {
-    GDCLASS(ErrorReporter, Reference);
+class ErrorReporter : public RefCounted {
+    GDCLASS(ErrorReporter, RefCounted);
 
 public:
     ErrorReporter();
