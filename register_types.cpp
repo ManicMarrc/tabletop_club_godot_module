@@ -23,7 +23,7 @@
 
 #include "register_types.h"
 
-#include "core/class_db.h"
+#include "core/object/class_db.h"
 #include "error_reporter.h"
 #include "tabletop_importer.h"
 
