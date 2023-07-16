@@ -53,7 +53,7 @@ TabletopImporter::TabletopImporter() {
         scene_importer.instance();
         ResourceFormatImporter::get_singleton()->add_importer(scene_importer);
     
-        Ref<EditorSceneImporterCollada> collada_importer;
+        Ref<EditorSceneFormatImporterCollada> collada_importer;
         collada_importer.instance();
         scene_importer->add_importer(collada_importer);
 
