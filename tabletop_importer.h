@@ -25,7 +25,7 @@
 #define TABLETOP_IMPORTER_H
 
 #include "core/error/error_list.h"
-#include "core/object/ref_counter.h"
+#include "core/object/ref_counted.h"
 
 class TabletopImporter : public RefCounted {
     GDCLASS(TabletopImporter, RefCounted);
