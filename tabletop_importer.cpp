@@ -23,6 +23,7 @@
 
 #include "tabletop_importer.h"
 
+#include "core/object/class_db.h"
 #include "core/error/error_list.h"
 #include "core/error/error_macros.h"
 #include "core/io/config_file.h"

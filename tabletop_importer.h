@@ -24,7 +24,7 @@
 #ifndef TABLETOP_IMPORTER_H
 #define TABLETOP_IMPORTER_H
 
-#include "core/error_list.h"
+#include "core/error/error_list.h"
 #include "core/object/ref_counter.h"
 
 class TabletopImporter : public RefCounted {
